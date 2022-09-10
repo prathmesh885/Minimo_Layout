@@ -1,0 +1,296 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	line-height: 1.5;
+}
+
+
+/*==========helper css==========*/
+ul,
+li {
+	list-style: none;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.mb-70 {
+	margin-bottom: 70px;
+}
+
+.mb-90 {
+	margin-bottom: 90px;
+}
+
+.mb-130 {
+	margin-bottom: 130px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.row,
+.row::after,
+.row::before {
+	display: table;
+	clear: both;
+	width: 100%
+}
+
+[class^='col'] {
+	float: left;
+	padding: 0 15px;
+}
+
+.col3 {
+	width: 25%;
+}
+
+.col4 {
+	width: calc(100% * 4/12);
+}
+
+.col5 {
+	width: calc(100% * 5/12);
+}
+
+.col6 {
+	width: 50%;
+}
+
+.col7 {
+	width: calc(100% * 7/12);
+}
+
+.col9 {
+	width: calc(100% * 9/12);
+}
+
+.col10 {
+	width: calc(100% * 10/12);
+}
+
+.col12 {
+	width: calc(100% * 12/12);
+}
+
+.offset-1 {
+	margin-left: calc(100% * 1/12);
+}
+
+.offset-3 {
+	margin-left: calc(100% * 3/12);
+}
+
+.offset-4 {
+	margin-left: calc(100% * 4/12);
+}
+
+.pri-heading,
+.leaveComment {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #626262;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.sec-heading {
+	font-size: 29px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #626262;
+	margin-bottom: 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.para {
+	font-size: 14px;
+	color: #626262;
+	margin-bottom: 30px;
+	/* font-family: 'Playfair Display', serif; */
+}
+
+.btn {
+	padding: 20px 30px;
+	cursor: pointer;
+	border: 1px solid #626262;
+	background-color: white;
+	color: #626262;
+	font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: #626262;
+	color: white;
+}
+
+.comment {
+	font-size: 14px;
+	color: #b4ad9e;
+	margin-bottom: 130px;
+
+}
+
+.col8 {
+	margin-bottom: 30px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.col5 {
+	margin-bottom: 130px;
+}
+
+/*==========helper image css==========*/
+
+.heroImage {
+	padding: 70px 0 95px;
+	/* border: 1px solid red; */
+
+}
+
+.header {
+	/* border: 1px solid red; */
+}
+
+.navbar ul {
+	display: inline-block;
+	/* background: red; */
+}
+
+.navbar li {
+	display: inline-block;
+	margin-left: 70px;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+	padding: 5px 10px;
+	color: black;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.heroImg {
+	width: 100%;
+}
+
+/*========== Thumbnail section photodiary css==========*/
+
+.thumbnailsection {
+	padding: 135px 0 125px;
+}
+
+.thumbnailsection {
+	padding: 100px 0 65px;
+}
+
+
+
+.thumbImg {
+	height: 275px;
+	margin-bottom: 30px;
+}
+
+.thumbImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.thumbnail .para {
+	margin-bottom: 0;
+}
+
+.innerRow .col6:first-child {
+	padding-left: 0px;
+}
+
+.innerRow .col6:last-child {
+	padding-right: 0px;
+}
+
+
+/*==========SignUp Section css==========*/
+
+.signUp {
+	background-color: #f0f0f0;
+	padding: 70px 0 75px;
+}
+
+.form-group {
+	position: relative;
+
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 36px;
+	border: 0px;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	outline: none;
+}
+
+.form-group .submitbtn {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	transform: rotate(45deg);
+	font-size: 26px;
+	cursor: pointer;
+	border: 0px;
+	background-color: transparent;
+}
+
+/* <!-- ********************* Footer Section css! ********************* --> */
+
+
+.footer {
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+
+.footerLink,
+.footerLink li {
+	display: inline-block;
+}
+
+.footerLink li {
+	color: #0000;
+	margin-right: 15px;
+}
+
+.footerLink li a {
+	color: black;
+}
